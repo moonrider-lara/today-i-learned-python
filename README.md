@@ -1,2 +1,2 @@
-# Python-Quiz
-Python Quiz
+# TIL Python
+TIL Python
