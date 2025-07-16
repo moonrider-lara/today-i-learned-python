@@ -2,6 +2,7 @@ finding_target = 2
 finding_numbers = [0, 3, 5, 6, 1, 2, 4]
 
 def is_exist_target_number_binary(target, array):
+    array.sort()        # 일정한 규칙으로 정렬되어 있는 데이터일때만 이진 탐색이 가능
     index_min = 0
     index_max = len(array) - 1
     half = ( index_min + index_max ) // 2
